@@ -38,13 +38,13 @@ An enterprise-grade, board-compliant, and pedagogically adaptive examination pla
 
 ```mermaid
 flowchart TD
-    subgraph Data Layer
+    subgraph DataLayer["Data Layer"]
         Dump["Portable Dump (data/database_dump.json)"] --> Import["Import Script (portal/scripts/import_database.py)"]
-        Import --> PG[("PostgreSQL Master\ncollegepur_db")]
-        Import --> SQLite[("SQLite Portable Cache\ndata/exam_engine.db")]
+        Import --> PG[("PostgreSQL Master<br/>collegepur_db")]
+        Import --> SQLite[("SQLite Portable Cache<br/>data/exam_engine.db")]
     end
 
-    subgraph Core Services
+    subgraph CoreServices["Core Services Layer"]
         Taxonomy["Taxonomy & Blueprint Registry"]
         GenEngine["Deterministic Paper Generator Engine"]
         AdaptEngine["Adaptive Remedial Engine (60/25/15)"]
@@ -52,7 +52,7 @@ flowchart TD
         PDFEngine["ReportLab PDF Compiler"]
     end
 
-    subgraph Streamlit Multipage Portal
+    subgraph WebPortal["Streamlit Multipage Portal"]
         App["app.py (Persistent Profile Selector)"]
         P1["1_Question_Bank_&_Upload.py"]
         P2["2_Exam_Paper_Generator.py"]
@@ -60,9 +60,9 @@ flowchart TD
         P4["4_Student_Analytics_Dashboard.py"]
     end
 
-    PG --> Core Services
-    SQLite --> Core Services
-    Core Services --> Streamlit Multipage Portal
+    PG --> CoreServices
+    SQLite --> CoreServices
+    CoreServices --> WebPortal
 ```
 
 ---
