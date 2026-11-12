@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Prove that the square root of 2 is irrational.,5,"Assume sqrt(2) = p/q in lowest terms. Then p^2 = 2q^2, so p^2 is even and p is even. Write p = 2k, giving 4k^2 = 2q^2 and q^2 = 2k^2, so q is also even. This contradicts that p/q is in lowest terms; hence sqrt(2) is irrational.","irrational number, contradiction, square root, lowest terms"
+2,Find the zeroes of the polynomial x^2 - 5x + 6 and verify the relationship between the zeroes and the coefficients.,5,"Factorising, x^2 - 5x + 6 = (x - 2)(x - 3), so zeroes are 2 and 3. Sum = 5 = -(-5)/1 and product = 6 = 6/1, matching -b/a and c/a.","quadratic polynomial, zeroes, factorisation, sum of zeroes, product of zeroes"
+3,State and prove the Basic Proportionality Theorem (Thales theorem).,10,"If a line is parallel to one side of a triangle and intersects the other two sides, it divides those sides in the same ratio. Draw a triangle ABC with DE parallel to BC. Compare areas of triangles BDE and CDE, and ADE and BDE, using the same altitudes; equate the ratios to obtain AD/DB = AE/EC.","Basic Proportionality Theorem, triangle, parallel line, ratio, similar triangles"
+4,"Find the distance between the points A(2, 3) and B(7, -9).",10,Distance = sqrt((7 - 2)^2 + (-9 - 3)^2) = sqrt(25 + 144) = sqrt(169) = 13 units.,"coordinate geometry, distance formula, points, square root"
+5,Prove that (1 - cos^2 A)(1 + tan^2 A) = tan^2 A.,15,,
+6,"Find the mean of the following frequency distribution: classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 5, 8, 15, 10, 2.",15,,
+7,Solve the quadratic equation 2x^2 - 7x + 3 = 0 using the quadratic formula.,10,,
+8,A die is thrown once. Find the probability of getting an even number and the probability of getting a number greater than 4.,15,,

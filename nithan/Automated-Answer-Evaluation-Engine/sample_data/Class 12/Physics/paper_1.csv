@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Derive the equations of motion for uniformly accelerated motion using velocity-time graphs.,10,"From a v-t graph, acceleration a = (v - u)/t gives v = u + at. The area under the graph gives displacement s = ut + (1/2)at^2. Eliminating t gives v^2 = u^2 + 2as.","equations of motion, velocity-time graph, acceleration, displacement"
+2,State and explain the law of conservation of energy with an example of a falling body.,10,"Energy can neither be created nor destroyed, only transformed. For a falling body, potential energy mgh converts into kinetic energy (1/2)mv^2; neglecting air resistance, the total mechanical energy remains constant.","conservation of energy, potential energy, kinetic energy, mechanical energy"
+3,Explain the first law of thermodynamics and apply it to an isothermal and an adiabatic process.,15,"Delta Q = Delta U + Delta W. In an isothermal process temperature is constant, so Delta U = 0 and Q = W. In an adiabatic process Q = 0, so Delta U = -W and internal energy changes at the expense of work.","thermodynamics, first law, isothermal, adiabatic, internal energy, work"
+4,Derive the expression for the effective resistance of two resistors connected in parallel.,15,"For parallel resistors, the same potential difference V exists across both and current I = I1 + I2. Using I1 = V/R1 and I2 = V/R2 gives I = V(1/R1 + 1/R2), so 1/Reff = 1/R1 + 1/R2.","parallel resistors, effective resistance, current, potential difference"
+5,Explain the phenomenon of total internal reflection and state its two conditions.,10,,
+6,Derive the expression for the electric field due to a uniformly charged thin spherical shell at a point outside it.,15,,
+7,Describe the working of a transformer and derive its voltage and current relations.,10,,
+8,Explain photoelectric effect and Einstein's photoelectric equation.,15,,

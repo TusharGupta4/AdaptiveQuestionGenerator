@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Define artificial intelligence and distinguish it from machine learning.,5,Artificial intelligence is the broad field of building machines that perform tasks requiring human-like intelligence. Machine learning is a subset of AI in which systems learn patterns from data instead of being explicitly programmed for every rule.,"artificial intelligence, machine learning, data, patterns, subset"
+2,What is a dataset? Explain the difference between training data and test data.,5,"A dataset is an organised collection of examples used for analysis or model building. Training data teaches the model, while test data evaluates how well the model generalises to unseen examples.","dataset, training data, test data, model, generalisation"
+3,Explain supervised learning with one real-world example.,10,"In supervised learning the model learns from labelled input-output pairs. For example, an email filter is trained with emails labelled spam or not spam, then predicts the label of new emails.","supervised learning, labelled data, classification, email filter, prediction"
+4,What is a neural network? Name its three basic layers.,10,"A neural network is a machine-learning model inspired by connected neurons. It has an input layer, one or more hidden layers and an output layer; weights are adjusted during training to reduce error.","neural network, input layer, hidden layer, output layer, weights, training"
+5,Discuss two ethical concerns related to AI.,15,,
+6,Write a short Python program to print the even numbers from 1 to 10.,15,,
+7,List the main stages of an AI project lifecycle.,10,,
+8,Describe two applications of AI in education.,15,,

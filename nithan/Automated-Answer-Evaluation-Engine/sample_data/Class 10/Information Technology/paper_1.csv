@@ -1,0 +1,15 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Explain the use of a spreadsheet and name four types of data it can store.,5,"A spreadsheet organises data in rows and columns and performs calculations, sorting, filtering and charting. It can store numbers, text, dates and formulas.","spreadsheet, rows, columns, formulas, charts, data types"
+2,"What is a database? Explain the terms table, record and field.",5,"A database is an organised collection of related data. A table stores data about one entity, a record is one row containing a complete entry, and a field is one column describing an attribute.","database, table, record, field, attribute, DBMS"
+3,"Write basic HTML tags to create a heading, a paragraph and an unordered list with two items.",10,"<h1>My Page</h1>
+<p>Welcome to my page.</p>
+<ul>
+  <li>Item one</li>
+  <li>Item two</li>
+</ul>
+The h1 tag creates a heading, p creates a paragraph and ul/li create an unordered list.","HTML, heading, paragraph, unordered list, tags"
+4,What is cyber safety? State three practices for protecting an online account.,10,"Cyber safety is the safe and responsible use of the internet. Use strong unique passwords, enable two-factor authentication, avoid suspicious links and never share personal information with unknown sites.","cyber safety, password, two-factor authentication, phishing, privacy"
+5,Distinguish between a LAN and a WAN with one example of each.,15,,
+6,Explain mail merge with reference to a word processor.,15,,
+7,What is digital documentation? Give two advantages of storing documents digitally.,10,,
+8,Write a short Python program that takes a name as input and prints a greeting.,15,,

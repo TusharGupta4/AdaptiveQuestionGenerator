@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Calculate the number of moles and molecules in 11.2 L of carbon dioxide at STP.,10,"At STP, 22.4 L contains 1 mole. Thus 11.2 L contains 0.5 mol. Number of molecules = 0.5 x 6.022 x 10^23 = 3.011 x 10^23 molecules.","mole concept, molar volume, STP, Avogadro number, carbon dioxide"
+2,State the first law of thermodynamics and use it to calculate the change in internal energy when 200 J of heat is absorbed and 50 J of work is done by the system.,10,"Delta U = q + w, where w is work done on the system. q = +200 J and w = -50 J, so Delta U = 150 J. The internal energy increases by 150 J.","first law, internal energy, heat, work, thermodynamic system"
+3,Explain Le Chatelier's principle and predict the effect of increasing pressure on the equilibrium N2(g) + 3H2(g) <=> 2NH3(g).,15,"Le Chatelier's principle states that a system at equilibrium shifts to oppose a change. Increasing pressure favours the side with fewer gas moles; here the forward reaction produces 2 moles from 4, so the equilibrium shifts towards ammonia.","Le Chatelier, equilibrium, pressure, ammonia, gas moles"
+4,Calculate the EMF of the cell Zn|Zn2+||Cu2+|Cu given E°(Zn2+/Zn) = -0.76 V and E°(Cu2+/Cu) = +0.34 V.,15,E°cell = E°cathode - E°anode = 0.34 - (-0.76) = 1.10 V. Copper is the cathode and zinc is the anode; the reaction is spontaneous under standard conditions.,"electrochemistry, EMF, cathode, anode, standard electrode potential"
+5,Describe the SN1 and SN2 mechanisms of nucleophilic substitution with one example each.,10,,
+6,Explain the structure and isomerism of [Co(NH3)4Cl2]+ using crystal field theory.,15,,
+7,Derive the integrated rate law for a first-order reaction and calculate the half-life if k = 0.693 min^-1.,10,,
+8,Explain the classification and biological importance of carbohydrates and proteins.,15,,

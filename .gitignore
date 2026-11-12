@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments (root and nested)
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+**/env/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Environment variables & secrets (All .env files except .env.example)
+.env
+*.env
+**/.env
+**/*.env
+!/.env.example
+!/**/.env.example
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary logs & task caches
+.system_generated/
+*.log

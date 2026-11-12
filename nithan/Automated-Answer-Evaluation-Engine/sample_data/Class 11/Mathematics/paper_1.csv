@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,"Find the inverse of the matrix A = [[2, 1], [5, 3]] and verify that A A^-1 = I.",10,"Determinant = 2(3) - 1(5) = 1. A^-1 = [[3, -1], [-5, 2]]. Multiplying A and A^-1 gives the identity matrix [[1, 0], [0, 1]].","matrices, inverse, determinant, identity matrix, verification"
+2,Evaluate the integral of x e^x dx using integration by parts.,10,Let u = x and dv = e^x dx. Then du = dx and v = e^x. Integral = x e^x - integral e^x dx = x e^x - e^x + C = e^x(x - 1) + C.,"integration by parts, integral, exponential, derivative, constant"
+3,Find the shortest distance between the lines r = i + 2j + k + t(i - j + k) and r = 2i - j - k + s(2i + j + 2k).,15,"Use the formula d = |(a2 - a1) . (b1 x b2)| / |b1 x b2|. Here a2 - a1 = i - 3j - 2k, b1 x b2 = -3i + 0j + 3k, giving distance = |(-3) + 0 + (-6)| / sqrt(18) = 9/(3 sqrt 2) = 3/sqrt 2 units.","three-dimensional geometry, shortest distance, cross product, lines, vectors"
+4,Solve the differential equation dy/dx + y = e^x.,15,"This is linear with integrating factor e^x. Then d/dx(y e^x) = e^(2x), so y e^x = (1/2)e^(2x) + C and y = (1/2)e^x + C e^-x.","differential equation, integrating factor, linear equation, general solution"
+5,"Find the probability that a random variable X with mean 50 and standard deviation 10 lies between 40 and 60, assuming a normal distribution.",10,,
+6,"Show that the relation R = {(a, b): a - b is divisible by 3} on the set of integers is an equivalence relation.",15,,
+7,"Maximise Z = 3x + 2y subject to x + y <= 4, x >= 0, y >= 0 using graphical linear programming.",10,,
+8,Find the equation of the tangent to the curve y = x^2 + 3x + 2 at x = 1.,15,,

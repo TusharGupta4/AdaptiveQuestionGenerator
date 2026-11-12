@@ -1,0 +1,27 @@
+Student Name: Aryan Sharma
+Roll No: CBSE-10-9842
+
+Ans 1:
+(B) ±2√6
+Because for equal roots, discriminant D = b^2 - 4ac = 0.
+k^2 - 4(2)(3) = 0 => k^2 = 24 => k = ±√24 = ±2√6.
+
+Ans 2:
+Given equation: 6x^2 - x - 2 = 0
+Splitting middle term:
+6x^2 - 4x + 3x - 2 = 0
+2x(3x - 2) + 1(3x - 2) = 0
+(2x + 1)(3x - 2) = 0
+So, 2x + 1 = 0 => x = -1/2
+3x - 2 = 0 => x = 2/3.
+Roots are x = 2/3 and x = -1/2.
+
+Ans 3:
+Formula: an = a + (n-1)d
+Given AP: 3, 8, 13, ..., 253
+Here a = 3, d = 5, last term l = 253.
+Formula for nth term from end = l - (n-1)d
+= 253 - (20 - 1)*5
+= 253 - 19*5
+= 253 - 95 = 158.
+Hence 20th term from the end is 158.

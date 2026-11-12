@@ -1,0 +1,17 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Write a Python function to find the largest element in a list without using the built-in max function.,10,"def largest(values):
+    result = values[0]
+    for value in values[1:]:
+        if value > result:
+            result = value
+    return result
+The function scans the list once and keeps the highest value seen so far.","Python, function, list, iteration, largest element"
+2,Explain the difference between a list and a tuple in Python with one example of each.,10,"A list is mutable and written with square brackets, for example [1, 2, 3]. A tuple is immutable and written with parentheses, for example (1, 2, 3). Tuples are useful for fixed records and can be used as dictionary keys.","list, tuple, mutable, immutable, Python"
+3,Write SQL statements to create a student table and insert one record.,15,"CREATE TABLE student (roll_no INT PRIMARY KEY, name VARCHAR(50), marks INT);
+INSERT INTO student VALUES (1, 'Aarav', 92);
+The table defines columns and constraints, and the insert adds a row.","SQL, CREATE TABLE, INSERT, primary key, constraints"
+4,Explain the difference between TCP and UDP protocols.,15,"TCP is connection-oriented, reliable and ordered, with acknowledgements and retransmission; it is used for web and email. UDP is connectionless, faster and does not guarantee delivery; it is used for live streaming and online games.","TCP, UDP, connection-oriented, reliable, streaming, protocol"
+5,Write a Python program to count the frequency of words in a string.,10,,
+6,Explain file handling modes in Python and write code to read a text file.,15,,
+7,Explain the four basic operations of a stack and give one application.,10,,
+8,Simplify the Boolean expression A.B + A.B' and state the law used.,15,,

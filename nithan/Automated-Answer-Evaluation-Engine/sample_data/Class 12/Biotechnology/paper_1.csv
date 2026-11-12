@@ -1,0 +1,9 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Explain the role of restriction endonucleases and DNA ligase in genetic engineering.,10,"Restriction endonucleases recognise specific DNA sequences and cut them, creating fragments with sticky or blunt ends. DNA ligase seals the phosphodiester backbone between fragments, joining a gene into a vector.","restriction endonuclease, DNA ligase, sticky ends, vector, genetic engineering"
+2,Describe the basic steps of a PCR cycle and explain why Taq polymerase is used.,10,"PCR cycles through denaturation, primer annealing and extension. Taq polymerase is thermostable and survives the high denaturation temperature, allowing repeated DNA synthesis without being replaced each cycle.","PCR, denaturation, annealing, extension, Taq polymerase, thermostable"
+3,What is a bioreactor? Compare stirred-tank and airlift bioreactors.,15,"A bioreactor provides controlled conditions for growing cells or producing a product. Stirred-tank bioreactors use impellers for mixing and aeration, while airlift bioreactors use gas flow to circulate the broth, reducing shear damage.","bioreactor, stirred-tank, airlift, aeration, shear, fermentation"
+4,Discuss the potential and ethical concerns of stem cell therapy.,15,"Stem cells can repair damaged tissue and model diseases, but embryonic stem cell use raises ethical questions about embryo status. Safety, consent, immune rejection, regulation and equitable access must be addressed.","stem cells, regenerative medicine, ethics, consent, immune rejection"
+5,Explain how bioinformatics is used in genome analysis.,10,,
+6,Describe the production of a recombinant vaccine with one example.,15,,
+7,Explain the steps involved in producing a transgenic plant.,10,,
+8,What are biosafety and biosecurity? Why are they important in biotechnology?,15,,

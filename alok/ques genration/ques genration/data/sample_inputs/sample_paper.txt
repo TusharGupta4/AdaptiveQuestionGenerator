@@ -1,0 +1,23 @@
+Class 10 Mathematics Practice Paper
+
+Q1. Find the discriminant of the quadratic equation 2x^2 - 4x + 3 = 0 and hence find the nature of its roots.
+[Marks: 2]
+[Chapter: Quadratic Equations]
+[Topic: Nature of Roots]
+[Answer: Discriminant is -8, no real roots]
+
+Q2. Which of the following is the 10th term of the AP: 2, 7, 12, ...?
+[Marks: 1]
+[Chapter: Arithmetic Progressions]
+[Topic: nth Term of an AP]
+[Answer: C]
+(A) 45
+(B) 46
+(C) 47
+(D) 48
+
+Q3. Solve the quadratic equation 2x^2 + x - 6 = 0 by factorisation.
+[Marks: 2]
+[Chapter: Quadratic Equations]
+[Topic: Solution by Factorisation]
+[Answer: x = 3/2 and x = -2]

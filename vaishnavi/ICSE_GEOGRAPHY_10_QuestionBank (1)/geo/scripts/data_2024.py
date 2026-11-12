@@ -1,0 +1,62 @@
+from data_2025 import MAP,IND,CL,SO,NV,WR,ME,AG,IN,TR,WM
+# paper_no = 3 (ICSE 2024). Map sheet G43S7 is NOT included in the PDF, so Q1 rows have no map image.
+M="Study the extract of the Survey of India Map Sheet No. G43S7 and answer the following questions: "
+O="On the outline map of India provided: "
+C="Choose the correct answers to the questions from the given options. (Do not copy the questions, write the correct answers only.) "
+P24=[
+(1,"i",2,MAP,M+"(a) Give the six-figure grid reference for spot height .522. (b) What is the pattern of settlement in the grid square 3591?",""),
+(1,"ii",2,MAP,M+"(a) Mention two man-made features seen in the grid square 3794. (b) Mention two means of transport used by the people of Nani Bhatamal in the grid square 3691.",""),
+(1,"iii",2,MAP,M+"(a) Identify the landform marked by the contours in the grid square 3896. (b) What is the pattern of drainage seen in the grid square 3697?",""),
+(1,"iv",2,MAP,M+"(a) What is the reason for the presence of causeway in the grid square 3695? (b) What is the compass direction of Khara (4097) from Karja (3994)?",""),
+(1,"v",2,MAP,M+"Calculate the area in kilometre square of the region to the South of 94 Northing.",""),
+]
+for s,t in [("i","Mark and label the river Krishna."),("ii","Mark and label the Eastern Ghats."),("iii","Shade and label a densely populated area in the Southern part of India."),("iv","Shade and label the Konkan coastal plain."),("v","Mark with an arrow and label the direction of Western disturbance."),("vi","Shade and label the Thar Desert."),("vii","Shade and label the Andaman Sea."),("viii","Mark and label the city Chennai."),("ix","Mark and name the highest peak of Himalayas in India."),("x","Mark and label Mumbai High.")]:
+    P24.append((2,s,1,IND,O+t,"india"))
+P24+=[
+(3,"i",1,CL,C+"What causes snowfall in Kashmir during winter? (a) Tropical cyclone (b) Northeast Monsoon wind (c) Southwest Monsoon wind (d) Temperate cyclone",""),
+(3,"ii",1,SO,C+"Which of the following helps in soil conservation? (a) Afforestation (b) Overgrazing (c) Mining (d) Shifting agriculture",""),
+(3,"iii",1,WR,C+"Which means of irrigation can be developed with minimum expenditure? (a) Tube well (b) Canal (c) Well (d) Drip irrigation",""),
+(3,"iv",1,NV,C+"Read the table and identify the pair that is correctly matched: P Tropical evergreen - Babool; Q Tropical deciduous - Teak; R Littoral - Ebony; S Mountain forest - Banyan. (a) P (b) Q (c) R (d) S",""),
+(3,"v",1,ME,C+"Bauxite is the ore of: (a) Aluminium (b) Copper (c) Manganese (d) Iron",""),
+(3,"vi",1,ME,C+"Identify the source of energy that leads to pollution: (a) Tidal energy (b) Wind energy (c) Natural gas (d) Geo-thermal energy",""),
+(3,"vii",1,IN,C+"Which of the following is NOT a centre for the iron and steel industry? (a) Bhilai (b) Bengaluru (c) Rourkela (d) Vishakhapatnam",""),
+(3,"viii",1,AG,C+"Which of the following farming method is used to grow tea on a large scale? (a) Subsistence farming (b) Plantation farming (c) Mixed farming (d) Shifting agriculture",""),
+(3,"ix",1,TR,C+"Which of the following means of transport has best use during floods/earthquake? (a) Airways (b) Railways (c) Roadways (d) Waterways",""),
+(3,"x",1,WM,C+"Which of the following is a biodegradable waste? (a) Broken glass (b) Waste paper (c) Polythene (d) Plastic bags",""),
+(4,"i",2,CL,"'Himalayas act as a climatic divide'. Justify the statement giving two reasons.",""),
+(4,"ii",2,CL,"Differentiate between Southwest Monsoon and Retreating Monsoon. (Any two differences)",""),
+(4,"iii",3,CL,"Give a geographical reason for the following: (a) Kolkata gets more rain than Delhi during rainy season. (b) Though both are hill stations, Shimla experiences snowfall during the winters but Ooty does not. (c) Winter monsoons bring less rain.",""),
+(4,"iv",3,CL,"Study the climate data of Station X and answer the questions that follow: Month: Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec | Temp C: 8.4 11.5 21.6 28.3 35.1 38.5 41.0 38.0 30.8 29.2 15.6 10.2 | Rainfall cms: 1.5 0.9 0.5 - - 12.5 17.8 18.5 12.5 12.5 6.2 2.1 (a) Calculate the annual range of temperature of Station X. (b) Name the rainiest month of the Station X. (c) Is the Station X located in coastal area or in the continental interior?",""),
+(5,"i",2,SO,"Why is Black soil found suitable for the production of cotton? (Any two points)",""),
+(5,"ii",2,SO,"Give one difference between each of the following: (a) Alluvial soil of Uttarakhand and alluvial soil of West Bengal. (b) Transported soil and residual soil.",""),
+(5,"iii",3,SO,"With reference to Laterite soil, answer the questions that follow: (a) How is Laterite soil formed? (b) How can Laterite soil be made productive? (c) Name one region where Laterite soil is found.",""),
+(5,"iv",3,SO,"(a) Mention two causes of soil erosion in India. (b) Mention a soil conservation method suitable for hilly area.",""),
+(6,"i",2,NV,"How is tropical monsoon forest useful for the Indian economy? (Any two points)",""),
+(6,"ii",2,NV,"Mention the climatic condition that leads to the development of tropical desert vegetation.",""),
+(6,"iii",3,NV,"Give a reason to explain each of the following: (a) Mountains have varied vegetation. (b) Stilt like/aerial roots are a typical feature of littoral forest. (c) The tropical evergreen forests do not look bare at any time of the year.",""),
+(6,"iv",3,NV,"(a) How has the rising population of India resulted in the loss of forest cover? (Any one point) (b) Mention any two forest conservation methods that may be adopted to protect the forests.",""),
+(7,"i",2,WR,"Mention one advantage and one disadvantage of using tank irrigation.",""),
+(7,"ii",2,WR,"(a) What is the advantage of using Drip irrigation? (b) Why is Drip irrigation not practiced on a large scale in India?",""),
+(7,"iii",3,WR,"Give a reason to explain each of the following: (a) Sprinkler irrigation is gaining popularity in recent times. (b) Tube well irrigation is used in Punjab. (c) North India has more area under canal irrigation.",""),
+(7,"iv",3,WR,"With reference to the picture below, answer the questions that follow: (a) Name the water conservation practice shown in the above picture. (b) How does this system help to reduce floods? (c) Why is water conservation necessary? (Any two reasons)","rain24"),
+(8,"i",2,ME,"(a) Name any three varieties of coal produced in India. (b) Name the variety of coal widely used in iron and Steel Industries of India.",""),
+(8,"ii",2,ME,"(a) Name the state that is the largest producer of iron ore in India. (b) Name any one mining area of iron ore from the state mentioned by you.",""),
+(8,"iii",3,ME,"(a) Mention two ways in which Hirakud dam has helped the people of Odisha. (b) Across which river is the Hirakud dam built?",""),
+(8,"iv",3,ME,"Give reasons for each of the following: (a) Geothermal energy is not popular in India. (b) Solar energy is gaining popularity. (c) Petroleum is considered a harmful source of energy.",""),
+(9,"i",2,AG,"Why is agriculture considered an important sector of Indian economy? (Any two points)",""),
+(9,"ii",2,AG,"(a) What is mixed farming? (b) Mention any one advantage of mixed farming.",""),
+(9,"iii",3,AG,"Give one reason to explain each of the following: (a) West Bengal is a leading producer of jute. (b) Millets are fast becoming the popular food crops. (c) More than two ratoon crops are not advisable for sugarcane farmers.",""),
+(9,"iv",3,AG,"(a) With reference to tea cultivation, explain the term 'fine pluck'. (b) Name the Indian state that leads in coffee production. (c) Why is cotton grown as a Kharif crop in India?",""),
+(10,"i",2,IN,"(a) Based on the ownership, what type of industry is Visakhapatnam Steel Plant? (b) What is meant by cooperative sector industry?",""),
+(10,"ii",2,IN,"Explain the following terms: (a) Sericulture (b) Integrated steel plant",""),
+(10,"iii",3,IN,"Give one reason to explain each of the following: (a) Mini-steel plants help in conservation of coal. (b) Location of sugar industry is shifting to the Southern part of India. (c) The electronic industry is growing at a fast rate.",""),
+(10,"iv",3,IN,"(a) State two conditions that favour the location of cotton textile industry in Ahmedabad. (b) State any one advantage of locating Iron and Steel industry at Rourkela.",""),
+(11,"i",2,TR,"Why is road transport an important means of transport in India? (Any two reasons)",""),
+(11,"ii",2,TR,"Give a reason for each of the following: (a) Northern plain is best suited for the development of Railways. (b) Railways are managed completely by the Central Government.",""),
+(11,"iii",3,TR,"Mention two advantages and one disadvantage of Inland water transport.",""),
+(11,"iv",3,TR,"Why has airway become more popular than other means of transport? (Any three reasons)",""),
+(12,"i",2,WM,"With reference to the picture below, answer the questions that follow: (a) Which waste management method is depicted here? (b) State one way in which this method may be implemented at our home.","bins24"),
+(12,"ii",2,WM,"Explain how waste accumulation can be harmful. (Any two points)",""),
+(12,"iii",3,WM,"Explain how waste generated in following sectors may be made useful. (Give one example for each) (a) Household (b) Industry (c) Agriculture",""),
+(12,"iv",3,WM,"(a) Give two uses of composting. (b) Why are landfills set up far away from the city? (Any two reasons)",""),
+]

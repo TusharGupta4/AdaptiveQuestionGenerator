@@ -1,0 +1,14 @@
+Q. no,Question,marks,reference_answer,keywords
+1,Explain how a pandas Series differs from a DataFrame with one example of each.,10,"A Series is a one-dimensional labelled array, for example pandas.Series([10, 20, 30]). A DataFrame is a two-dimensional table with rows and columns, for example pandas.DataFrame({'marks': [10, 20], 'name': ['A', 'B']}).","pandas, Series, DataFrame, labelled data, table"
+2,Write Python code using pandas to read a CSV file and display its first five rows.,10,"import pandas as pd
+data = pd.read_csv('students.csv')
+print(data.head())
+read_csv loads the file into a DataFrame and head displays the first five records.","pandas, read_csv, DataFrame, head, file"
+3,Explain the use of NumPy arrays and two operations that can be performed on them.,15,NumPy arrays store homogeneous data efficiently and support vectorised operations. Examples include element-wise addition of two arrays and computing the mean or standard deviation of an array.,"NumPy, array, vectorised operation, mean, standard deviation"
+4,Write SQL queries to display all records from a table and to filter records where marks are greater than 80.,15,"SELECT * FROM student;
+SELECT * FROM student WHERE marks > 80;
+The first query returns every column and row, while WHERE applies a condition.","SQL, SELECT, WHERE, condition, filtering"
+5,Explain the purpose of data visualisation and name two common chart types.,10,,
+6,Write a Python program to create a dictionary of three students and print their names and marks.,15,,
+7,Explain the difference between a hub and a switch in a network.,10,,
+8,Describe the main components of a web page and the role of HTML and CSS.,15,,

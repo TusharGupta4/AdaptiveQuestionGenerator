@@ -1,0 +1,11 @@
+# Environment & Keys
+.env
+*.env
+
+# Python & Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+opencode.json
